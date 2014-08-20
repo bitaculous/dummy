@@ -1,0 +1,11 @@
+---
+id: "dummy"
+class: "default"
+title: "Dummy"
+---
+
+- content_for :content do
+  %h1 Dummy
+
+- content_for :javascripts do
+  = javascript_include_tag 'bundle'

@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "dummy",
+      "path": "./",
+      "file_exclude_patterns": [
+        "*.sublime-workspace",
+        ".keep"
+      ],
+      "folder_exclude_patterns": [
+        ".bundle",
+        ".cache",
+        "bin",
+        "build",
+        "tmp"
+      ]
+    }
+  ]
+}

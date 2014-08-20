@@ -1,0 +1,30 @@
+// _normalize.css.sass
+//
+// @package bundle/contour/common
+
+@mixin normalize
+  html,
+  body
+    height: 100%
+
+  @include font-normalization
+
+  body
+    @include font-smoothing(on)
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  b,
+  strong,
+  a
+    color: map-get($defaults, color)
+
+  a
+    text-decoration: none
+
+  img
+    border-style: none

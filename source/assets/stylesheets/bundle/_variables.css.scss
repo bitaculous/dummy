@@ -1,0 +1,18 @@
+// _variables.css.sass
+//
+// Shared variables used in `bundle` package.
+//
+// @package bundle
+
+// Defaults
+// ========
+
+$defaults: (
+  font-family: Helvetica Arial Verdana sans-serif,
+  font-size: 100%,
+  baseline: 16px,
+  font-style: normal,
+  font-weight: normal,
+  color: #000,
+  line-height: 1.25
+);

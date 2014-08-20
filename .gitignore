@@ -1,0 +1,14 @@
+# Ignore sublime workspace files
+*.sublime-workspace
+
+# Ignore bundler config
+.bundle
+
+# Ignore cache
+.cache
+
+# Ignore bundler stubs
+bin
+
+# Ignore build directory
+# build
