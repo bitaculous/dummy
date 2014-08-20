@@ -6,3 +6,5 @@
 
 $ ->
   console.log 'Dummy initialized.'
+
+  return
