@@ -8,7 +8,7 @@
 // ========
 
 $defaults: (
-  font-family: Helvetica Arial Verdana sans-serif,
+  font-family: unquote('Arial, Verdana, sans-serif'),
   font-size: 100%,
   baseline: 16px,
   font-style: normal,
