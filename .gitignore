@@ -1,6 +1,4 @@
 /.bundle/
-/.ruby-gemset
-/.ruby-version
 /bin/
 /build/
 /dummy.sublime-workspace
