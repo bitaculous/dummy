@@ -1,3 +1,4 @@
+activate :livereload
 activate :wundertuete
 
 set :css_dir,    'assets/stylesheets'

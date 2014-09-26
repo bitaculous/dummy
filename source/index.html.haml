@@ -5,7 +5,15 @@ title: "Dummy"
 ---
 
 - content_for :content do
-  %h1 Dummy
+  :markdown
+    Dummy
+    =====
+
+    What Next?
+    ----------
+
+    1. Give it an awesome name
+    2. Create something awesome
 
 - content_for :javascripts do
   = javascript_include_tag 'bundle'
