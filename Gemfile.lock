@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/bitaculous/assetify.git
-  revision: 056d3851220d67c97a65d1bf531d362537162033
+  revision: 79116c219b0c9e30a07e801db6a44dc2f476d5b3
   specs:
     assetify (1.3.0)
       bourbon (~> 4.0.2)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/bitaculous/middleman-wundertuete.git
-  revision: 244a602624dd1a7abdbf62d6a9ca48e6db2116fb
+  revision: 0d7091b171acebd53391c984554cf3391e860dea
   specs:
     middleman-wundertuete (1.1.0)
       middleman-core (~> 3.3.6)
@@ -68,7 +68,8 @@ GEM
     i18n (0.6.11)
     json (1.8.1)
     kramdown (1.4.2)
-    listen (2.7.9)
+    libv8 (3.16.14.7)
+    listen (2.7.11)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -104,10 +105,14 @@ GEM
       sprockets (~> 2.12.1)
       sprockets-helpers (~> 1.1.0)
       sprockets-sass (~> 1.2.0)
-    minitest (5.4.1)
+    mina (0.3.0)
+      open4
+      rake
+    minitest (5.4.2)
     modular-scale (2.0.5)
       compass (>= 0.12.0)
     multi_json (1.10.1)
+    open4 (1.3.4)
     padrino-helpers (0.12.3)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.12.3)
@@ -119,9 +124,11 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.3.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    ref (1.0.5)
     sass (3.4.5)
     sassy-maps (0.4.0)
       sass (~> 3.3)
@@ -135,6 +142,9 @@ GEM
     sprockets-sass (1.2.0)
       sprockets (~> 2.0)
       tilt (~> 1.1)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
@@ -156,3 +166,5 @@ DEPENDENCIES
   middleman (~> 3.3.6)
   middleman-livereload (~> 3.3.4)
   middleman-wundertuete!
+  mina (~> 0.3.0)
+  therubyracer (~> 0.12.1)
