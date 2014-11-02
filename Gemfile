@@ -12,8 +12,6 @@ group :default do
 
   gem 'assetify', github: 'bitaculous/assetify'
 
-  gem 'therubyracer', '~> 0.12.1', require: RUBY_PLATFORM.include?('linux') && 'v8'
-
   # === Misc ===
 
   gem 'andand', '~> 1.3.3'
@@ -25,8 +23,8 @@ group :development do
   gem 'middleman-livereload', '~> 3.3.4'
 end
 
-group :deployment do
-  # === Mina ===
+group :production do
+  # === Assets ===
 
-  gem 'mina', '~> 0.3.0'
+  gem 'therubyracer', '~> 0.12.1', require: RUBY_PLATFORM.include?('linux') && 'v8'
 end
