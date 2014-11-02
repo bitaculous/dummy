@@ -1,4 +1,3 @@
-activate :livereload
 activate :wundertuete
 
 set :css_dir,    'assets/stylesheets'
@@ -7,6 +6,14 @@ set :images_dir, 'assets/images'
 set :js_dir,     'assets/javascripts'
 
 page '*', layout: 'default'
+
+configure :development do
+  require 'middleman-livereload'
+
+  activate :livereload
+
+  set :debug_assets, true
+end
 
 configure :build do # Build-specific configuration
   # activate :relative_assets
