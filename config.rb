@@ -30,3 +30,6 @@ after_configuration do
     ugly: false
   }
 end
+
+# Ignore Photoshop documents
+ignore 'assets/images/**/*.psd'
