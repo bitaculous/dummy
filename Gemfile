@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 group :default do
   # === Middleman ===
 
-  gem 'middleman',             '~> 3.3.6'
+  gem 'middleman',             '~> 3.3.7'
   gem 'middleman-wundertuete', github: 'bitaculous/middleman-wundertuete'
 
   # === Assets ===
