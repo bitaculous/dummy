@@ -1,10 +1,10 @@
-name: "Dummy"
 title: "Dummy"
+copyright:
+  owner: "Bitaculous"
 meta_tags:
   abstract: "An imitation of a real or original object, intended to be used as a practical substitute."
-  author: "Dummy"
-  copyright_owner: "Bitaculous"
+  author: "Bitaculous"
   description: "An imitation of a real or original object, intended to be used as a practical substitute."
   keywords: "dummy, test, quickly"
-  publisher: "Bitaculous - It's all about the bits, baby!"
-  web_author: "Bitaculous - It's all about the bits, baby!"
+  publisher: "Bitaculous"
+  viewport: "width=device-width, initial-scale=1"
