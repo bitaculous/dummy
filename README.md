@@ -10,9 +10,11 @@ Dummy is a [Middleman] project to try and test things quickly.
 Installation
 ------------
 
-    $ git clone git@github.com:bitaculous/dummy.git dummy
-    $ cd dummy
-    $ bundle
+```
+$ git clone git@github.com:bitaculous/dummy.git dummy
+$ cd dummy
+$ bundle
+```
 
 Usage
 -----
