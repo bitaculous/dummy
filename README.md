@@ -19,13 +19,23 @@ $ bundle
 Usage
 -----
 
-1. Boot up Middleman
+1. Boot up [Middleman]
 
   ```
-  $ middleman
+  $ ./bin/middleman.sh
+  ```
+
+  or
+
+  ```
+  $ middleman --verbose
   ```
 
 2. Open your browser at [http://0.0.0.0:4567] and start hacking
+
+### Building dummy
+
+Run `middleman build` or `middleman build --verbose`.
 
 License
 -------
