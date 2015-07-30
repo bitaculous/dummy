@@ -2,20 +2,19 @@
 
 source 'https://rubygems.org'
 
-group :default do
-  # === Middleman ===
+# === Middleman ===
 
-  gem 'middleman',             '~> 3.3.7'
-  gem 'middleman-wundertuete', github: 'bitaculous/middleman-wundertuete'
+gem 'middleman',              '~> 3.3.12'
+gem 'middleman-autoprefixer', '~> 2.5.0'
+gem 'middleman-wundertuete',  github: 'bitaculous/middleman-wundertuete'
 
-  # === Assets ===
+# === Assets ===
 
-  gem 'assetify', github: 'bitaculous/assetify'
+gem 'assetify', github: 'bitaculous/assetify'
 
-  # === Misc ===
+# === Misc ===
 
-  gem 'andand', '~> 1.3.3'
-end
+gem 'andand', '~> 1.3.3'
 
 group :development do
   # === Middleman ===
