@@ -5,6 +5,7 @@ meta_tags:
   abstract: "An imitation of a real or original object, intended to be used as a practical substitute."
   author: "Bitaculous"
   description: "An imitation of a real or original object, intended to be used as a practical substitute."
+  generator: "Middleman: Hand-crafted frontend development (http://middlemanapp.com)"
   keywords: "dummy, test, quickly"
   publisher: "Bitaculous"
   viewport: "width=device-width, initial-scale=1"

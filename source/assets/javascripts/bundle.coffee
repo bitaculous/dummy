@@ -1,4 +1,4 @@
-# This is the manifest for `bundle.js`.
+# This is a manifest file that'll be compiled into `bundle.js`.
 
 #= require polyfills/console
 

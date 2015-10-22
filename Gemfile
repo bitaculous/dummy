@@ -4,26 +4,20 @@ source 'https://rubygems.org'
 
 # === Middleman ===
 
-gem 'middleman',              '~> 3.3.12'
-gem 'middleman-autoprefixer', '~> 2.5.0'
-gem 'middleman-wundertuete',  github: 'bitaculous/middleman-wundertuete'
+gem 'middleman',               '~> 3.4.0'
+gem 'middleman-autoprefixer',  '~> 2.6.1'
+gem 'middleman-favicon-maker', '~> 3.7'
+gem 'middleman-livereload',    '~> 3.4.3'
+gem 'middleman-wundertuete',   github: 'bitaculous/middleman-wundertuete'
+
+# === Configuration ===
+
+gem 'confstruct', '~> 1.0.1'
 
 # === Assets ===
 
-gem 'assetify', github: 'bitaculous/assetify'
+gem 'bitaculous-assetify', github: 'bitaculous/assetify'
 
 # === Misc ===
 
 gem 'andand', '~> 1.3.3'
-
-group :development do
-  # === Middleman ===
-
-  gem 'middleman-livereload', '~> 3.3.4'
-end
-
-group :production do
-  # === Assets ===
-
-  gem 'therubyracer', '~> 0.12.1', require: RUBY_PLATFORM.include?('linux') && 'v8'
-end
