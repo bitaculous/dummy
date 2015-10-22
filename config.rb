@@ -1,10 +1,10 @@
 # === Variables ===
 
-configuration = Confstruct::Configuration.new(
-  build: {
-    asset_host: '/'
-  }
-)
+# configuration = Confstruct::Configuration.new(
+#   build: {
+#     asset_host: '/'
+#   }
+# )
 
 # === Settings ===
 
@@ -43,7 +43,7 @@ configure :build do
   # activate :directory_indexes
 
   # activate :relative_assets
-  activate :asset_hash, ignore: %r(^*fonts/*)
+  activate :asset_hash, ignore: %r{^*fonts/*}
   activate :minify_css
   activate :minify_javascript
   # activate :gzip
