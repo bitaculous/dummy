@@ -12,7 +12,7 @@ gem 'middleman-wundertuete',   github: 'bitaculous/middleman-wundertuete'
 
 # === Configuration ===
 
-gem 'confstruct', '~> 1.0.1'
+gem 'confstruct', '~> 1.0.2'
 
 # === Assets ===
 
