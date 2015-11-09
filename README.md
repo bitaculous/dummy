@@ -24,7 +24,7 @@ Usage
 1. Boot up [Middleman]
 
   ```
-  $ ./bin/middleman.sh
+  $ ./bin/middleman
   ```
 
   or
